@@ -37,3 +37,13 @@ For more information, the original paper can be found [here](https://arxiv.org/a
 
 [Bert documentation](https://huggingface.co/transformers/v3.0.2/model_doc/bert.html)
 
+## Task 2: Exploratory Data Analysis and Preprocessing
+We will use the SMILE Twitter dataset.
+
+_Wang, Bo; Tsakalidis, Adam; Liakata, Maria; Zubiaga, Arkaitz; Procter, Rob; Jensen, Eric (2016): SMILE Twitter Emotion dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.3187909.v2_
+
+```python
+import torch
+import pandas as pd
+from tqdm.notebook import tqdm
+```
