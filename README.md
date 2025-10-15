@@ -47,3 +47,7 @@ import torch
 import pandas as pd
 from tqdm.notebook import tqdm
 ```
+## Task 3: Train and Test Splitting
+```python
+from sklearn.model_selection import train_test_split
+```
