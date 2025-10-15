@@ -51,3 +51,10 @@ from tqdm.notebook import tqdm
 ```python
 from sklearn.model_selection import train_test_split
 ```
+
+
+## Task 4: Loading Tokenizer and Encoding our Data
+```python
+from transformers import BertTokenizer
+from torch.utils.data import TensorDataset
+```
